@@ -42,7 +42,7 @@
 		<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 		<!--    Profiles related to Browser requirementes    -->
 		<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-		
+
 		<profile>
 			<id>chrome</id>
 			<activation>
@@ -61,7 +61,7 @@
 				<crowdar.driver.capabilities.json_path>src/main/resources/browsers/firefoxCapabilities.json</crowdar.driver.capabilities.json_path>
 			</properties>
 		</profile>
-		
+
 		<profile>
 			<id>chromeHeadless</id>
 			<properties>
