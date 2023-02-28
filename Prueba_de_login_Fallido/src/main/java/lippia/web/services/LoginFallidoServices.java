@@ -14,19 +14,14 @@ public class LoginFallidoServices extends ActionManager {
     public static void mainpage(){
         navigateTo(PropertyManager.getProperty("web.base.url"));
     }
-
     public static void redireccion() {
         click(LoginFallidoConstants.REDIRECCION);
     }
-
     public static void logueo(String text){
         setInput(LoginFallidoConstants.LOGUEO, text + Keys.ENTER);
-
     }
-
     public static void resultados(){
         Assert.assertTrue(WebActionManager.getElement(LoginFallidoConstants.RESULTADO).isDisplayed());
-
     }
 
 }

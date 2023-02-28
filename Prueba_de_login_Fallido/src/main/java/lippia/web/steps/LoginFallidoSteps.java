@@ -10,18 +10,14 @@ public class LoginFallidoSteps extends PageSteps {
     public void mainpage() {
         LoginFallidoServices.mainpage();
     }
-
     @When("Como usuaro me dirijo a la secccion de logueo")
     public void redireccion() {
         LoginFallidoServices.redireccion();
-
     }
-
     @And("Como usuario intento loguear poniendo mi(.*)$")
     public void logueo(String correo){
         LoginFallidoServices.logueo(correo);
     }
-
     @Then("El usuario no pudo loguear")
     public void resultado() {
         LoginFallidoServices.resultados();
